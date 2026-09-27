@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+.paper-bg {
+  background-image: linear-gradient(#D8D2BE 1px, transparent 1px), linear-gradient(90deg, #D8D2BE 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-color: #F4F1E6;
+}
+
+.navlink { display:flex; align-items:center; gap:10px; padding:11px 14px; border-radius:6px; cursor:pointer; color:#C7D3DB; font-size:14.5px; font-weight:500; transition:background .15s; }
+.navlink:hover { background:#1E3441; }
+.navlink.active { background:#D9891F; color:#2A1A03; }
+
+.btn-primary { background:#2E6F63; color:#fff; border:none; padding:11px 20px; border-radius:6px; font-weight:600; font-size:14.5px; cursor:pointer; display:inline-flex; align-items:center; gap:8px; }
+.btn-primary:hover { background:#1E4B43; }
+
+.btn-outline { background:transparent; border:1.5px solid #12222E; color:#12222E; padding:10px 18px; border-radius:6px; font-weight:600; font-size:14.5px; cursor:pointer; }
+
+.field { width:100%; padding:11px 12px; border:1.5px solid #C9C2AE; border-radius:6px; font-size:14.5px; background:#fff; font-family:inherit; }
+.field:focus { outline:2px solid #2E6F63; border-color:#2E6F63; }
+
+.card { background:#FFFDF6; border:1px solid #DFD9C6; border-radius:10px; padding:22px; }
+
+.mono { font-family:'IBM Plex Mono', monospace; }
